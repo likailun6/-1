@@ -14,10 +14,11 @@
             list-style: none;
             margin:0 auto;
         }
-      @media only screen and (min-width: 320px) and (max-width: 750px) {
-    		html{
-    			font-size:100px;
-			}
+    html{ 
+	    @media only screen and (min-width: 320px) and (max-width: 750px) {
+    	
+    		font-size:100px;
+		}
     	}
         #nav{
            width: 3.75rem;
@@ -272,7 +273,13 @@
 
             };
           
-
+	oA.onclick= function () {
+		kOne.style.display='none';
+                kTwo.style.display='none';
+                kLi.style.opacity=1;
+                kH.style.opacity=1;
+		window.open('product.html',"_self")
+	}
 
         }
 
