@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
 
     <style>
-	    body{
-	    overflow:hidden;
+	.cliearfix:after{
+	    content:'';
+	    display:block;
+	    clear:both;
 	    }
-	    
         *{
             margin: 0;
             padding: 0;
@@ -286,7 +287,7 @@
 
     </script>
 </head>
-<body>
+<body class="cliearfix">
 <div id="nav">
     <ul>
         <li></li>
